@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "firebase auth server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ctrly4sh/firebase-auth"
+  },
+  "keywords": [
+    "nodejs",
+    "auth",
+    "firebase"
+  ],
+  "author": "y4sh",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.21.0"
+  }
+}
