@@ -1,5 +1,7 @@
 const express = require("express")
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8080
+console.log(PORT)
+
 const app = express()
 
 app.get("/" , (req,res)=>{
@@ -9,5 +11,5 @@ app.get("/" , (req,res)=>{
 })
 
 app.listen(PORT , ()=>{
-    console.log("Hello")
+    console.log("")
 })
